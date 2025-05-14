@@ -66,7 +66,7 @@ function GuestOptionList({options,handleOptions,setOpenOptions}){
         <div className="guestOptions" ref={optionsRef}>
        <OptionItem handleOptions={handleOptions} type="adult" options={options} minLimit={1}/>
        <OptionItem handleOptions={handleOptions} type="Children" options={options} minLimit={0}/>
-       <OptionItem handleOptions={handleOptions} type="room" options={options} minLimit={1}/>
+       <OptionItem handleOptions={handleOptions} type="room " options={options} minLimit={1}/>
     </div>
     )
 }
