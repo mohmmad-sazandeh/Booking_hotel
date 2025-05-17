@@ -1,10 +1,18 @@
+import { GiToaster } from "react-icons/gi";
+import {Toaster} from "react-hot-toast";
 import "./App.css";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/Header.jsx";
+import LocationList from "./components/LocationList/LocationList.jsx";
+import { Route,Routes } from "react-router-dom";
 
 function App() {
   return (
     <div>
+      <Toaster />
         <Header />
+        <Routes>
+          <Route path="/" element={<LocationList />} />
+        </Routes>
     </div>
   )
 }
