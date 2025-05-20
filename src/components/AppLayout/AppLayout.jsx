@@ -1,5 +1,6 @@
 import React from 'react'
 import {Outlet} from"react-router-dom";
+import Map from '../Map/map';
 
 function AppLayout() {
   return (
@@ -7,7 +8,8 @@ function AppLayout() {
         <div className="sidebar">
             <Outlet />
         </div>
-        <div className="mapContainer">map</div>
+         <Map />
+
     </div>
   )
 }

@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Loader from "../Loader/Loader";
-import { useHotel } from "../../context/HotelProvider";
+import { useHotels } from "../context/HotelProvider";
 
 function Hotels() {
-  const { isLoading, hotels, currentHotle } = useHotel();
-  if (isLoading) <Loader />;
+  const { isLoading, hotels, currentHotel } = useHotels();
+
+  if (isLoading) return <Loader />;
   return (
     <div className="searchList">
       <h2>Search Resulte : {hotels.length} </h2>
@@ -17,8 +18,8 @@ function Hotels() {
           >
             <div
               className={`searchItem ${
-                item.id == currentHotle?.id
-              } ? "current-hotel" :  ""`}
+                item.id === currentHotel?.id ? "current-hotel" : ""
+              }`}
             >
               <img src={item.xl_picture_url} alt={item.name} />
               <div className="searchItemDesc">
