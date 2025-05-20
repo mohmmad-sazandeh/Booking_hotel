@@ -11,6 +11,6 @@ function Bookmark() {
       <Map markerLocations={[]} />
     </div>
   );
-}
+} 
 
 export default Bookmark;
