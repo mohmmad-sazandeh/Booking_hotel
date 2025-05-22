@@ -1,4 +1,3 @@
-
 {
   "hotels": [
     {
@@ -1378,7 +1377,6 @@
       "longitude": "8.964843750000002",
       "host_location": "Vaga Norway",
       "id": 10
-    }
+        }
   ]
 }
-
