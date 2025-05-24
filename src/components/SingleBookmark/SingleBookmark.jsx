@@ -6,12 +6,12 @@ import Loader from "../Loader/Loader";
 function SingleBookmark() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { getBookmar, isLoadingCurrBookmark, currentBookmark } = useBookmark();
+  const { getBookmar,isLoading, currentBookmark } = useBookmark();
   useEffect(() => {
     getBookmar(id);
   }, [id]);
 
-  if (isLoadingCurrBookmark || !currentBookmark) return <Loader />;
+  if (isLoading || !currentBookmark) return <Loader />;
   return (
     <div>
       <button onClick={() => navigate(-1)} className="btn btn--back">

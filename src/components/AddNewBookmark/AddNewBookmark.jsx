@@ -4,7 +4,7 @@ import useUrlLocation from "../../hooks/useUrlLocation";
 import axios from "axios";
 import Loader from "../Loader/Loader";
 import ReactCountryFlag from "react-country-flag";
-// import { useBookmark } from "../../context/BookmarkListContext.jsx";
+import { useBookmark } from "../context/BookmarkListContext.jsx";
 
 const BASE_URL = "https://api.bigdatacloud.net/data/reverse-geocode-client";
 
