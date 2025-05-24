@@ -9,7 +9,7 @@ import {
 } from "react-leaflet";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import useGeoLocation from "../../hooks/useGeoLocation";
-import useUrlLoaction from "../../hooks/useUrlLoaction";
+import useUrlLoaction from "../../hooks/useUrlLocation";
 
 function Map({ markerLocations }) {
   const [mapCenter, setMapCenter] = useState([50, 4]);
