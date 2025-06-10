@@ -48,4 +48,5 @@ function Bookmark() {
     </div>
   );
 }
+
 export default Bookmark;
