@@ -5,7 +5,7 @@ import Header from "./components/Header/Header.jsx";
 import LocationList from "./components/LocationList/LocationList.jsx";
 import { Route, Routes } from "react-router-dom";
 import AppLayout from "./components/AppLayout/AppLayout.jsx";
-import Hotels from "./components/Hotels/Hotels.jsx";
+import Hotels from "./components/hotels/Hotels.jsx";
 import HotelsProvider from "./components/context/HotelProvider.jsx";
 import SingleHotel from "./components/SingleHotel/SingleHotel.jsx";
 import BookmarkLayout from "./components/BookmarkLayout/BookmarkLayout.jsx";
