@@ -28,6 +28,6 @@ function SingleBookmark() {
       </div>
     </div>
   );
-}
+} 
 
 export default SingleBookmark;
