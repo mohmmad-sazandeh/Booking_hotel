@@ -6,3 +6,4 @@ export default function useUrlLoaction() {
   const lng = searchParams.get("lng");
   return [lat,lng];
 }
+ 
