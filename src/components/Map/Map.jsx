@@ -13,7 +13,7 @@ import useUrlLoaction from "../../hooks/useUrlLocation";
 
 function Map({ markerLocations }) {
   const [mapCenter, setMapCenter] = useState([50, 4]);
- const [lat,lng] = useUrlLoaction();
+  const [lat, lng] = useUrlLoaction();
 
   const {
     isLoading: isLoadingPosition,
