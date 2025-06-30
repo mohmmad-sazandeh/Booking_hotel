@@ -164,4 +164,3 @@ function OptionItem({ options, type, minLimit, handleOptions }) {
     </div>
   );
 }
- 
