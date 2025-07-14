@@ -62,9 +62,7 @@ function bookmarkReducer(state, action) {
   }
 }
 
-
 // 1. pending, 2. success ,3. rejected
-
 
 function BookmarkListProvider({ children }) {
   const [{ bookmarks, isLoading, currentBookmark }, dispatch] = useReducer(
