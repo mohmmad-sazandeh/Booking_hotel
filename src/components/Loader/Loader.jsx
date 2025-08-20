@@ -16,6 +16,6 @@ function Loader() {
       <LoaderIcon style={{ width: "1.3rem", height: "1.3rem" }} />
     </div>
   );
-}
+} 
 
 export default Loader;
