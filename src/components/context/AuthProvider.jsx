@@ -49,4 +49,4 @@ export default function AuthContextProvider({ children }) {
       {children}
     </AuthContext.Provider>
   );
-}
+}  
